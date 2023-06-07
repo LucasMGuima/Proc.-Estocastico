@@ -1,7 +1,10 @@
+#include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
 #include "tabelas.h"
 
 int __tempo(int maior, int menor){
-    return (rand () % (maior - menor + 1)) + menor;
+    return (rand() % (maior - menor + 1)) + menor;
 }
 
 int tempo_entrada(int probabilidade){
